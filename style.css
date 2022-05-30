@@ -1,0 +1,164 @@
+.float {
+    display: inline-block;
+    margin-left: 2%;
+    box-sizing: border-box;
+    justify-content: center;
+    /* flex: 1; */
+
+    /* float:left ; */
+}
+
+.icon {
+    /* making the icons small for the screen */
+    width: 25px;
+}
+
+input {
+    width: 125%;
+}
+
+div>span {
+    position: relative;
+    left: 18%;
+}
+
+.text_font {
+    /* changind the font color to white */
+    color: white;
+}
+
+.corner {
+    display: inline-flex;
+    align-content: left;
+}
+
+/* nav{
+    height: 40%; background-color: #333232; ;
+    margin-top: 10px;
+    justify-content: center;
+} */
+
+
+/* ul > li:hover
+{
+    
+} */
+
+.box_img {
+    /* banner img properties */
+    border-bottom: #800000 solid 2px;
+    height: 30vh;
+    width: 60vw;
+}
+
+
+
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333232;
+    height: 05vh;
+    width: 60vw;
+    line-height: 05vh;
+
+}
+
+ul>li {
+    float: left;
+    border-right: 0.2vw solid #828080;
+    display: inline;
+    text-align: center;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 02vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+
+}
+
+li:hover {
+    background-color: #dddddd;
+    /* color: black; */
+    /* text color property won't work for the li as the real text is inside the a */
+}
+
+a:hover {
+    /* doing for a just for the text color change */
+    color: black;
+}
+
+li.current {
+    background-color: #f54140;
+    color: white;
+}
+
+div.box {
+    /* the one that contains the description along with image */
+    background-color: white;
+    height: 30vh;
+    width: 60vw;
+    
+
+}
+
+div.box1 {
+    float: left;
+    width: 48%;
+    padding: 1%;
+    /* background-color: pink; */
+    height: 100%;
+}
+
+div.box2 {
+    float: right;
+    width: 48%;
+    padding: 1%;
+    
+    height: 90%;
+}
+
+p.text {
+    text-align: left;
+    /* float: left; */
+    color: #800000;
+    font-weight: bold;
+    text-shadow: 1px 1px 12px #000000;
+    font-size: x-large;
+}
+
+.imgInsidebox {
+    /* images inside the boxes */
+    width: 40%;
+    height: 35%;
+    border-radius: 3px;
+    border: black solid 2px;
+    float: left;
+    margin-right: 2%;
+}
+
+div.footer {
+    color: white;
+    background-color: #333232;
+    height: 05vh;
+    width: 60vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 05vh; */
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
